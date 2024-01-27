@@ -1,11 +1,11 @@
 import { createSlice,nanoid ,PayloadAction } from "@reduxjs/toolkit";
 
-interface Todo{
+export interface Todo{
     id:string,
     text:string
 }
 
-interface Todostate{
+export interface Todostate{
     todos:Todo []
 }
 
